@@ -1,0 +1,20 @@
+{
+  "name": "vkaudio",
+  "version": "1.0.0",
+  "description": "Let you getting information's about audio from vk.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olroma/VkAudio.git"
+  },
+  "author": "OlegRom4ig",
+  "license": "ISC",
+  "homepage": "https://github.com/olroma/VkAudio#readme",
+  "dependencies": {
+    "iconv-lite": "^0.4.21",
+    "querystring": "^0.2.0"
+  }
+}
