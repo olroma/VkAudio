@@ -21,6 +21,17 @@ const getTracks = new VkAudio(credits.id, credits.cookie).getTracks();
 getTracks.then(tracks => {
     console.log(`Count tracks: ${tracks.length}`);
     console.log(`Tracks: ${tracks}`);
+
+
+    // console.log(tracks[0]);
+    // {
+    //   trackId: "",
+    //   src: "",
+    //   title: "",
+    //   author: "",
+    //   duration: ""
+    // }
+
 }).catch(err => {
     console.log(err);
 });
