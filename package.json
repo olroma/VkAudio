@@ -1,6 +1,6 @@
 {
   "name": "vkaudio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Let you getting information's about audio from vk.com",
   "main": "index.js",
   "scripts": {
@@ -16,5 +16,13 @@
   "dependencies": {
     "iconv-lite": "^0.4.21",
     "querystring": "^0.2.0"
-  }
+  },
+  "keywords": [
+    "vk",
+    "audio",
+    "vkaudio",
+    "vk-audio",
+    "vk audio download",
+    "vk-audio-download"
+  ]
 }

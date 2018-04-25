@@ -2,8 +2,7 @@ class VkAudio {
   constructor(userId, cookie) {
     const lib = {
       querystring: require('querystring'),
-      iconv: require('iconv-lite'),
-      request: require('request')
+      iconv: require('iconv-lite')
     };
     const config = require('./config');
     config.setInfo(userId, cookie);
